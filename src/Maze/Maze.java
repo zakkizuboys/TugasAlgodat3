@@ -13,6 +13,7 @@ import java.util.Scanner;
  */
 public class Maze {
     public static void main(String[] args) {
+        int n;
         Scanner sc = new Scanner(System.in);
         System.out.println("**************************************");
         System.out.println("\t\tWelcome");
@@ -20,5 +21,13 @@ public class Maze {
         System.out.println("\t\tPilihan Menu");
         System.out.println("1. Main");
         System.out.println("2. Keluar");
+        System.out.print("Masukkan pilihan anda : ");
+        n = sc.nextInt();
+        switch(n){
+            case 1:
+                break;
+            case 2:
+                break;
+        }
     }
 }
