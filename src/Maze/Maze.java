@@ -27,6 +27,7 @@ public class Maze {
             case 1:
                 break;
             case 2:
+                System.out.println("Terimakasih");
                 break;
         }
     }
